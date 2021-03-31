@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="32" passed="32">
+  <reporter-output>
+    <line>
+      <![CDATA[Execution of Test-Step openClickDocURL Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step openClickDocURL Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step clickOnSearch Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkSearchSection Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkSortingSection Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkResultSection Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkNameField Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkNameFieldFurtherInputRefineSearch Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkLoginPageElementsBySelectingProfileButton Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkLoginWithoutUsernameAndPassword Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkNameFieldFurtherInputWithNoSearchResults Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkSearchResultSectionWithValidNameInput Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkEmailInputFieldWithValidEmail Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkPasswordInputFieldWithWrongPassword Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkLoginWithWrongPassword Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkLoginWithInvalidEmail Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkLoginWithValidUsernameAndPassword Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkProfileButtonMenuOptions Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkLogout Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkSearchResultObjects Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step scrollDownAndCheckShowMoreButtonAtPageBottom Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkAdditionalSearchResultsByClickingShowMoreButton Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step scrollUpAndCheckLocationInputField Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkSearchResultBySelectingLocation Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkOnlineBookableCheckboxAndSubFields Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step clickSearchButtonAndCheckOnlineBookableAppointments Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkVideoConferenceSearchResults Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkBarrierFreeSearchResults Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkAlphabeticalSortingOfSearchResults Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step checkDistanceSort Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step holdAndDragUmkreisSlider Successful!]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Test-Step releaseUmkreisSlider Successful!]]>
+    </line>
+  </reporter-output>
+  <suite name="ClickDocTestSuite" duration-ms="323051" started-at="2021-03-31T21:45:34Z" finished-at="2021-03-31T21:50:57Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="67218" started-at="2021-03-31T21:45:34Z" finished-at="2021-03-31T21:46:41Z">
+      <class name="com.cgm.clickdoc.testsuite.LoginTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="setup" is-config="true" duration-ms="1987" started-at="2021-03-31T23:45:34Z" finished-at="2021-03-31T23:45:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64616ca2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openClickDocURL()[pri:1, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="openClickDocURL" duration-ms="1924" started-at="2021-03-31T23:45:36Z" finished-at="2021-03-31T23:45:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step openClickDocURL Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openClickDocURL -->
+        <test-method status="PASS" signature="checkLoginPageElementsBySelectingProfileButton()[pri:2, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkLoginPageElementsBySelectingProfileButton" duration-ms="11108" started-at="2021-03-31T23:45:38Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.openClickDocURL" finished-at="2021-03-31T23:45:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkLoginPageElementsBySelectingProfileButton Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginPageElementsBySelectingProfileButton -->
+        <test-method status="PASS" signature="checkLoginWithoutUsernameAndPassword()[pri:3, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkLoginWithoutUsernameAndPassword" duration-ms="208" started-at="2021-03-31T23:45:49Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkLoginPageElementsBySelectingProfileButton" finished-at="2021-03-31T23:45:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkLoginWithoutUsernameAndPassword Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithoutUsernameAndPassword -->
+        <test-method status="PASS" signature="checkEmailInputFieldWithValidEmail()[pri:4, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkEmailInputFieldWithValidEmail" duration-ms="10203" started-at="2021-03-31T23:45:49Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkLoginWithoutUsernameAndPassword" finished-at="2021-03-31T23:45:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkEmailInputFieldWithValidEmail Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkEmailInputFieldWithValidEmail -->
+        <test-method status="PASS" signature="checkPasswordInputFieldWithWrongPassword()[pri:5, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkPasswordInputFieldWithWrongPassword" duration-ms="10193" started-at="2021-03-31T23:45:59Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkEmailInputFieldWithValidEmail" finished-at="2021-03-31T23:46:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkPasswordInputFieldWithWrongPassword Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkPasswordInputFieldWithWrongPassword -->
+        <test-method status="PASS" signature="checkLoginWithWrongPassword()[pri:6, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkLoginWithWrongPassword" duration-ms="1476" started-at="2021-03-31T23:46:09Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkPasswordInputFieldWithWrongPassword" finished-at="2021-03-31T23:46:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkLoginWithWrongPassword Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithWrongPassword -->
+        <test-method status="PASS" signature="checkLoginWithInvalidEmail()[pri:7, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkLoginWithInvalidEmail" duration-ms="1700" started-at="2021-03-31T23:46:11Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkPasswordInputFieldWithWrongPassword" finished-at="2021-03-31T23:46:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkLoginWithInvalidEmail Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithInvalidEmail -->
+        <test-method status="PASS" signature="checkLoginWithValidUsernameAndPassword()[pri:8, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkLoginWithValidUsernameAndPassword" duration-ms="15910" started-at="2021-03-31T23:46:13Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkLoginWithInvalidEmail" finished-at="2021-03-31T23:46:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkLoginWithValidUsernameAndPassword Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithValidUsernameAndPassword -->
+        <test-method status="PASS" signature="checkProfileButtonMenuOptions()[pri:9, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkProfileButtonMenuOptions" duration-ms="10291" started-at="2021-03-31T23:46:29Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkLoginWithValidUsernameAndPassword" finished-at="2021-03-31T23:46:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkProfileButtonMenuOptions Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkProfileButtonMenuOptions -->
+        <test-method status="PASS" signature="checkLogout()[pri:10, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="checkLogout" duration-ms="1535" started-at="2021-03-31T23:46:39Z" depends-on-methods="com.cgm.clickdoc.testsuite.LoginTest.checkProfileButtonMenuOptions" finished-at="2021-03-31T23:46:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkLogout Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cgm.clickdoc.testsuite.LoginTest@71c7db30]" name="teardown" is-config="true" duration-ms="671" started-at="2021-03-31T23:46:40Z" finished-at="2021-03-31T23:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cgm.clickdoc.testsuite.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="PhysicianSearchTest" duration-ms="323051" started-at="2021-03-31T21:45:34Z" finished-at="2021-03-31T21:50:57Z">
+      <class name="com.cgm.clickdoc.testsuite.PhysicianSearchTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="1955" started-at="2021-03-31T23:45:34Z" finished-at="2021-03-31T23:45:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@783e6358]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openClickDocURL()[pri:1, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="openClickDocURL" duration-ms="3895" started-at="2021-03-31T23:45:36Z" finished-at="2021-03-31T23:45:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step openClickDocURL Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openClickDocURL -->
+        <test-method status="PASS" signature="clickOnSearch()[pri:2, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="clickOnSearch" duration-ms="1013" started-at="2021-03-31T23:45:40Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.openClickDocURL" finished-at="2021-03-31T23:45:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step clickOnSearch Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnSearch -->
+        <test-method status="PASS" signature="checkSearchSection()[pri:3, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkSearchSection" duration-ms="180" started-at="2021-03-31T23:45:41Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.clickOnSearch" finished-at="2021-03-31T23:45:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkSearchSection Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSearchSection -->
+        <test-method status="PASS" signature="checkSortingSection()[pri:4, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkSortingSection" duration-ms="138" started-at="2021-03-31T23:45:41Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkSearchSection" finished-at="2021-03-31T23:45:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkSortingSection Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSortingSection -->
+        <test-method status="PASS" signature="checkResultSection()[pri:5, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkResultSection" duration-ms="59" started-at="2021-03-31T23:45:41Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkSortingSection" finished-at="2021-03-31T23:45:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkResultSection Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResultSection -->
+        <test-method status="PASS" signature="checkNameField()[pri:6, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkNameField" duration-ms="573" started-at="2021-03-31T23:45:41Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkResultSection" finished-at="2021-03-31T23:45:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkNameField Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkNameField -->
+        <test-method status="PASS" signature="checkNameFieldFurtherInputRefineSearch()[pri:7, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkNameFieldFurtherInputRefineSearch" duration-ms="988" started-at="2021-03-31T23:45:42Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkNameField" finished-at="2021-03-31T23:45:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkNameFieldFurtherInputRefineSearch Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkNameFieldFurtherInputRefineSearch -->
+        <test-method status="PASS" signature="checkNameFieldFurtherInputWithNoSearchResults()[pri:8, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkNameFieldFurtherInputWithNoSearchResults" duration-ms="10774" started-at="2021-03-31T23:45:43Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkNameFieldFurtherInputRefineSearch" finished-at="2021-03-31T23:45:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkNameFieldFurtherInputWithNoSearchResults Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkNameFieldFurtherInputWithNoSearchResults -->
+        <test-method status="PASS" signature="checkSearchResultSectionWithValidNameInput()[pri:9, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkSearchResultSectionWithValidNameInput" duration-ms="887" started-at="2021-03-31T23:45:53Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkNameFieldFurtherInputWithNoSearchResults" finished-at="2021-03-31T23:45:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkSearchResultSectionWithValidNameInput Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSearchResultSectionWithValidNameInput -->
+        <test-method status="PASS" signature="checkSearchResultObjects()[pri:10, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkSearchResultObjects" duration-ms="95484" started-at="2021-03-31T23:45:54Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkSearchResultSectionWithValidNameInput" finished-at="2021-03-31T23:47:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkSearchResultObjects Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSearchResultObjects -->
+        <test-method status="PASS" signature="scrollDownAndCheckShowMoreButtonAtPageBottom()[pri:11, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="scrollDownAndCheckShowMoreButtonAtPageBottom" duration-ms="110" started-at="2021-03-31T23:47:30Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkSearchResultObjects" finished-at="2021-03-31T23:47:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step scrollDownAndCheckShowMoreButtonAtPageBottom Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scrollDownAndCheckShowMoreButtonAtPageBottom -->
+        <test-method status="PASS" signature="checkAdditionalSearchResultsByClickingShowMoreButton()[pri:12, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkAdditionalSearchResultsByClickingShowMoreButton" duration-ms="10306" started-at="2021-03-31T23:47:30Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.scrollDownAndCheckShowMoreButtonAtPageBottom" finished-at="2021-03-31T23:47:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkAdditionalSearchResultsByClickingShowMoreButton Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkAdditionalSearchResultsByClickingShowMoreButton -->
+        <test-method status="PASS" signature="scrollUpAndCheckLocationInputField()[pri:13, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="scrollUpAndCheckLocationInputField" duration-ms="708" started-at="2021-03-31T23:47:40Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkAdditionalSearchResultsByClickingShowMoreButton" finished-at="2021-03-31T23:47:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step scrollUpAndCheckLocationInputField Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scrollUpAndCheckLocationInputField -->
+        <test-method status="PASS" signature="checkSearchResultBySelectingLocation()[pri:14, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkSearchResultBySelectingLocation" duration-ms="10652" started-at="2021-03-31T23:47:41Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.scrollUpAndCheckLocationInputField" finished-at="2021-03-31T23:47:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkSearchResultBySelectingLocation Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSearchResultBySelectingLocation -->
+        <test-method status="PASS" signature="checkOnlineBookableCheckboxAndSubFields()[pri:15, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkOnlineBookableCheckboxAndSubFields" duration-ms="223" started-at="2021-03-31T23:47:52Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkSearchResultBySelectingLocation" finished-at="2021-03-31T23:47:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkOnlineBookableCheckboxAndSubFields Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkOnlineBookableCheckboxAndSubFields -->
+        <test-method status="PASS" signature="clickSearchButtonAndCheckOnlineBookableAppointments()[pri:16, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="clickSearchButtonAndCheckOnlineBookableAppointments" duration-ms="10278" started-at="2021-03-31T23:47:52Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkOnlineBookableCheckboxAndSubFields" finished-at="2021-03-31T23:48:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step clickSearchButtonAndCheckOnlineBookableAppointments Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickSearchButtonAndCheckOnlineBookableAppointments -->
+        <test-method status="PASS" signature="checkVideoConferenceSearchResults()[pri:17, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkVideoConferenceSearchResults" duration-ms="11310" started-at="2021-03-31T23:48:02Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.clickSearchButtonAndCheckOnlineBookableAppointments" finished-at="2021-03-31T23:48:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkVideoConferenceSearchResults Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkVideoConferenceSearchResults -->
+        <test-method status="PASS" signature="checkBarrierFreeSearchResults()[pri:18, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkBarrierFreeSearchResults" duration-ms="151595" started-at="2021-03-31T23:48:13Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkVideoConferenceSearchResults" finished-at="2021-03-31T23:50:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkBarrierFreeSearchResults Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBarrierFreeSearchResults -->
+        <test-method status="PASS" signature="checkAlphabeticalSortingOfSearchResults()[pri:19, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkAlphabeticalSortingOfSearchResults" duration-ms="10472" started-at="2021-03-31T23:50:45Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkBarrierFreeSearchResults" finished-at="2021-03-31T23:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkAlphabeticalSortingOfSearchResults Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkAlphabeticalSortingOfSearchResults -->
+        <test-method status="PASS" signature="checkDistanceSort()[pri:20, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="checkDistanceSort" duration-ms="199" started-at="2021-03-31T23:50:55Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkAlphabeticalSortingOfSearchResults" finished-at="2021-03-31T23:50:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step checkDistanceSort Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkDistanceSort -->
+        <test-method status="PASS" signature="holdAndDragUmkreisSlider()[pri:21, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="holdAndDragUmkreisSlider" duration-ms="220" started-at="2021-03-31T23:50:56Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.checkDistanceSort" finished-at="2021-03-31T23:50:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step holdAndDragUmkreisSlider Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- holdAndDragUmkreisSlider -->
+        <test-method status="PASS" signature="releaseUmkreisSlider()[pri:22, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="releaseUmkreisSlider" duration-ms="301" started-at="2021-03-31T23:50:56Z" depends-on-methods="com.cgm.clickdoc.testsuite.PhysicianSearchTest.holdAndDragUmkreisSlider" finished-at="2021-03-31T23:50:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of Test-Step releaseUmkreisSlider Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- releaseUmkreisSlider -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cgm.clickdoc.testsuite.PhysicianSearchTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="705" started-at="2021-03-31T23:50:56Z" finished-at="2021-03-31T23:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cgm.clickdoc.testsuite.PhysicianSearchTest -->
+    </test> <!-- PhysicianSearchTest -->
+  </suite> <!-- ClickDocTestSuite -->
+</testng-results>

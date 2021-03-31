@@ -1,0 +1,4 @@
+-- In this project, tests have been written based on Selenium WebDriver.
+-- WebDriver used : ChromeDriver
+-- Update the WebDriver location in Base class before running Tests
+-- Run the tests using TestNG Suite to generate test reports

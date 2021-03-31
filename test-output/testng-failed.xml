@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ClickDocTestSuite]" parallel="tests">
+  <test name="LoginTest">
+    <classes>
+      <class name="com.cgm.clickdoc.testsuite.LoginTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="PhysicianSearchTest">
+    <classes>
+      <class name="com.cgm.clickdoc.testsuite.PhysicianSearchTest"/>
+    </classes>
+  </test> <!-- PhysicianSearchTest -->
+</suite> <!-- Failed suite [ClickDocTestSuite] -->

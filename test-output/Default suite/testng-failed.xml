@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.cgm.clickdoc.testsuite.LoginTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.cgm.clickdoc.testsuite.LoginTest">
+        <methods>
+          <include name="checkLoginPageElementsBySelectingProfileButton"/>
+          <include name="checkLoginWithValidUsernameAndPassword"/>
+          <include name="teardown"/>
+          <include name="openClickDocURL"/>
+          <include name="checkProfileButtonMenuOptions"/>
+          <include name="setup"/>
+          <include name="checkLoginWithInvalidEmail"/>
+          <include name="checkEmailInputFieldWithValidEmail"/>
+          <include name="checkLoginWithWrongPassword"/>
+          <include name="checkLoginWithoutUsernameAndPassword"/>
+          <include name="checkPasswordInputFieldWithWrongPassword"/>
+          <include name="checkLogout"/>
+        </methods>
+      </class> <!-- com.cgm.clickdoc.testsuite.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

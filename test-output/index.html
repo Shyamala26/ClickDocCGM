@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ClickDocTestSuite">
+              <span class="suite-name border-passed">ClickDocTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ClickDocTestSuite">
+                    <span>D:\eclipse_neon\eclipse-jee-neon-1-win32-x86_64\workspace\ClickDocCGM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ClickDocTestSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ClickDocTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ClickDocTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ClickDocTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ClickDocTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ClickDocTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ClickDocTestSuite" class="hide-methods passed suite-ClickDocTestSuite"> (hide)</a> <!-- hide-methods passed suite-ClickDocTestSuite -->
+                      <a href="#" panel-name="suite-ClickDocTestSuite" class="show-methods passed suite-ClickDocTestSuite"> (show)</a> <!-- show-methods passed suite-ClickDocTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ClickDocTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkAdditionalSearchResultsByClickingShowMoreButton">checkAdditionalSearchResultsByClickingShowMoreButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkAlphabeticalSortingOfSearchResults">checkAlphabeticalSortingOfSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkBarrierFreeSearchResults">checkBarrierFreeSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkDistanceSort">checkDistanceSort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkEmailInputFieldWithValidEmail">checkEmailInputFieldWithValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkLoginPageElementsBySelectingProfileButton">checkLoginPageElementsBySelectingProfileButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkLoginWithInvalidEmail">checkLoginWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkLoginWithValidUsernameAndPassword">checkLoginWithValidUsernameAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkLoginWithWrongPassword">checkLoginWithWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkLoginWithoutUsernameAndPassword">checkLoginWithoutUsernameAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkLogout">checkLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkNameField">checkNameField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkNameFieldFurtherInputRefineSearch">checkNameFieldFurtherInputRefineSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkNameFieldFurtherInputWithNoSearchResults">checkNameFieldFurtherInputWithNoSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkOnlineBookableCheckboxAndSubFields">checkOnlineBookableCheckboxAndSubFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkPasswordInputFieldWithWrongPassword">checkPasswordInputFieldWithWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="checkProfileButtonMenuOptions">checkProfileButtonMenuOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkResultSection">checkResultSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkSearchResultBySelectingLocation">checkSearchResultBySelectingLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkSearchResultObjects">checkSearchResultObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkSearchResultSectionWithValidNameInput">checkSearchResultSectionWithValidNameInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkSearchSection">checkSearchSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkSortingSection">checkSortingSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="checkVideoConferenceSearchResults">checkVideoConferenceSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="clickOnSearch">clickOnSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="clickSearchButtonAndCheckOnlineBookableAppointments">clickSearchButtonAndCheckOnlineBookableAppointments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="holdAndDragUmkreisSlider">holdAndDragUmkreisSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.LoginTest" hash-for-method="openClickDocURL">openClickDocURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="openClickDocURL">openClickDocURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="releaseUmkreisSlider">releaseUmkreisSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="scrollDownAndCheckShowMoreButtonAtPageBottom">scrollDownAndCheckShowMoreButtonAtPageBottom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ClickDocTestSuite" title="com.cgm.clickdoc.testsuite.PhysicianSearchTest" hash-for-method="scrollUpAndCheckLocationInputField">scrollUpAndCheckLocationInputField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ClickDocTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ClickDocTestSuite" class="panel ClickDocTestSuite">
+          <div class="suite-ClickDocTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cgm.clickdoc.testsuite.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmailInputFieldWithValidEmail">
+                  </a> <!-- checkEmailInputFieldWithValidEmail -->
+                  <span class="method-name">checkEmailInputFieldWithValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginPageElementsBySelectingProfileButton">
+                  </a> <!-- checkLoginPageElementsBySelectingProfileButton -->
+                  <span class="method-name">checkLoginPageElementsBySelectingProfileButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginWithInvalidEmail">
+                  </a> <!-- checkLoginWithInvalidEmail -->
+                  <span class="method-name">checkLoginWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginWithValidUsernameAndPassword">
+                  </a> <!-- checkLoginWithValidUsernameAndPassword -->
+                  <span class="method-name">checkLoginWithValidUsernameAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginWithWrongPassword">
+                  </a> <!-- checkLoginWithWrongPassword -->
+                  <span class="method-name">checkLoginWithWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginWithoutUsernameAndPassword">
+                  </a> <!-- checkLoginWithoutUsernameAndPassword -->
+                  <span class="method-name">checkLoginWithoutUsernameAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogout">
+                  </a> <!-- checkLogout -->
+                  <span class="method-name">checkLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPasswordInputFieldWithWrongPassword">
+                  </a> <!-- checkPasswordInputFieldWithWrongPassword -->
+                  <span class="method-name">checkPasswordInputFieldWithWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProfileButtonMenuOptions">
+                  </a> <!-- checkProfileButtonMenuOptions -->
+                  <span class="method-name">checkProfileButtonMenuOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openClickDocURL">
+                  </a> <!-- openClickDocURL -->
+                  <span class="method-name">openClickDocURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ClickDocTestSuite-class-passed -->
+          <div class="suite-ClickDocTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cgm.clickdoc.testsuite.PhysicianSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAdditionalSearchResultsByClickingShowMoreButton">
+                  </a> <!-- checkAdditionalSearchResultsByClickingShowMoreButton -->
+                  <span class="method-name">checkAdditionalSearchResultsByClickingShowMoreButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAlphabeticalSortingOfSearchResults">
+                  </a> <!-- checkAlphabeticalSortingOfSearchResults -->
+                  <span class="method-name">checkAlphabeticalSortingOfSearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBarrierFreeSearchResults">
+                  </a> <!-- checkBarrierFreeSearchResults -->
+                  <span class="method-name">checkBarrierFreeSearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDistanceSort">
+                  </a> <!-- checkDistanceSort -->
+                  <span class="method-name">checkDistanceSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNameField">
+                  </a> <!-- checkNameField -->
+                  <span class="method-name">checkNameField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNameFieldFurtherInputRefineSearch">
+                  </a> <!-- checkNameFieldFurtherInputRefineSearch -->
+                  <span class="method-name">checkNameFieldFurtherInputRefineSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNameFieldFurtherInputWithNoSearchResults">
+                  </a> <!-- checkNameFieldFurtherInputWithNoSearchResults -->
+                  <span class="method-name">checkNameFieldFurtherInputWithNoSearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOnlineBookableCheckboxAndSubFields">
+                  </a> <!-- checkOnlineBookableCheckboxAndSubFields -->
+                  <span class="method-name">checkOnlineBookableCheckboxAndSubFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResultSection">
+                  </a> <!-- checkResultSection -->
+                  <span class="method-name">checkResultSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchResultBySelectingLocation">
+                  </a> <!-- checkSearchResultBySelectingLocation -->
+                  <span class="method-name">checkSearchResultBySelectingLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchResultObjects">
+                  </a> <!-- checkSearchResultObjects -->
+                  <span class="method-name">checkSearchResultObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchResultSectionWithValidNameInput">
+                  </a> <!-- checkSearchResultSectionWithValidNameInput -->
+                  <span class="method-name">checkSearchResultSectionWithValidNameInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchSection">
+                  </a> <!-- checkSearchSection -->
+                  <span class="method-name">checkSearchSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSortingSection">
+                  </a> <!-- checkSortingSection -->
+                  <span class="method-name">checkSortingSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkVideoConferenceSearchResults">
+                  </a> <!-- checkVideoConferenceSearchResults -->
+                  <span class="method-name">checkVideoConferenceSearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSearch">
+                  </a> <!-- clickOnSearch -->
+                  <span class="method-name">clickOnSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSearchButtonAndCheckOnlineBookableAppointments">
+                  </a> <!-- clickSearchButtonAndCheckOnlineBookableAppointments -->
+                  <span class="method-name">clickSearchButtonAndCheckOnlineBookableAppointments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="holdAndDragUmkreisSlider">
+                  </a> <!-- holdAndDragUmkreisSlider -->
+                  <span class="method-name">holdAndDragUmkreisSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openClickDocURL">
+                  </a> <!-- openClickDocURL -->
+                  <span class="method-name">openClickDocURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="releaseUmkreisSlider">
+                  </a> <!-- releaseUmkreisSlider -->
+                  <span class="method-name">releaseUmkreisSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollDownAndCheckShowMoreButtonAtPageBottom">
+                  </a> <!-- scrollDownAndCheckShowMoreButtonAtPageBottom -->
+                  <span class="method-name">scrollDownAndCheckShowMoreButtonAtPageBottom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollUpAndCheckLocationInputField">
+                  </a> <!-- scrollUpAndCheckLocationInputField -->
+                  <span class="method-name">scrollUpAndCheckLocationInputField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ClickDocTestSuite-class-passed -->
+        </div> <!-- panel ClickDocTestSuite -->
+        <div panel-name="test-xml-ClickDocTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\eclipse_neon\eclipse-jee-neon-1-win32-x86_64\workspace\ClickDocCGM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ClickDocTestSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cgm.clickdoc.testsuite.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test name=&quot;PhysicianSearchTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cgm.clickdoc.testsuite.PhysicianSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PhysicianSearchTest --&gt;
+&lt;/suite&gt; &lt;!-- ClickDocTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ClickDocTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ClickDocTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PhysicianSearchTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ClickDocTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ClickDocTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ClickDocTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ClickDocTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ClickDocTestSuite');
+function tableData_ClickDocTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkBarrierFreeSearchResults')
+data.setCell(0, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(0, 3, 151595);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkSearchResultObjects')
+data.setCell(1, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(1, 3, 95484);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkLoginWithValidUsernameAndPassword')
+data.setCell(2, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(2, 3, 15910);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkVideoConferenceSearchResults')
+data.setCell(3, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(3, 3, 11310);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkLoginPageElementsBySelectingProfileButton')
+data.setCell(4, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(4, 3, 11108);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkNameFieldFurtherInputWithNoSearchResults')
+data.setCell(5, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(5, 3, 10774);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkSearchResultBySelectingLocation')
+data.setCell(6, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(6, 3, 10652);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkAlphabeticalSortingOfSearchResults')
+data.setCell(7, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(7, 3, 10472);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkAdditionalSearchResultsByClickingShowMoreButton')
+data.setCell(8, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(8, 3, 10306);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkProfileButtonMenuOptions')
+data.setCell(9, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(9, 3, 10291);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickSearchButtonAndCheckOnlineBookableAppointments')
+data.setCell(10, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(10, 3, 10278);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkEmailInputFieldWithValidEmail')
+data.setCell(11, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(11, 3, 10203);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkPasswordInputFieldWithWrongPassword')
+data.setCell(12, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(12, 3, 10193);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'openClickDocURL')
+data.setCell(13, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(13, 3, 3895);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'openClickDocURL')
+data.setCell(14, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(14, 3, 1924);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkLoginWithInvalidEmail')
+data.setCell(15, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(15, 3, 1700);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkLogout')
+data.setCell(16, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(16, 3, 1535);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkLoginWithWrongPassword')
+data.setCell(17, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(17, 3, 1476);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickOnSearch')
+data.setCell(18, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(18, 3, 1013);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkNameFieldFurtherInputRefineSearch')
+data.setCell(19, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(19, 3, 988);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkSearchResultSectionWithValidNameInput')
+data.setCell(20, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(20, 3, 887);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'scrollUpAndCheckLocationInputField')
+data.setCell(21, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(21, 3, 708);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkNameField')
+data.setCell(22, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(22, 3, 573);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'releaseUmkreisSlider')
+data.setCell(23, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(23, 3, 301);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkOnlineBookableCheckboxAndSubFields')
+data.setCell(24, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(24, 3, 223);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'holdAndDragUmkreisSlider')
+data.setCell(25, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(25, 3, 220);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkLoginWithoutUsernameAndPassword')
+data.setCell(26, 2, 'com.cgm.clickdoc.testsuite.LoginTest')
+data.setCell(26, 3, 208);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkDistanceSort')
+data.setCell(27, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(27, 3, 199);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkSearchSection')
+data.setCell(28, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(28, 3, 180);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkSortingSection')
+data.setCell(29, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(29, 3, 138);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'scrollDownAndCheckShowMoreButtonAtPageBottom')
+data.setCell(30, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(30, 3, 110);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkResultSection')
+data.setCell(31, 2, 'com.cgm.clickdoc.testsuite.PhysicianSearchTest')
+data.setCell(31, 3, 59);
+window.suiteTableData['ClickDocTestSuite']= { tableData: data, tableDiv: 'times-div-ClickDocTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-ClickDocTestSuite">
+              </div> <!-- times-div-ClickDocTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ClickDocTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ClickDocTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkPasswordInputFieldWithWrongPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkPasswordInputFieldWithWrongPassword Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLoginPageElementsBySelectingProfileButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkLoginPageElementsBySelectingProfileButton Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkLogout Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">openClickDocURL</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step openClickDocURL Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLoginWithValidUsernameAndPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkLoginWithValidUsernameAndPassword Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkEmailInputFieldWithValidEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkEmailInputFieldWithValidEmail Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLoginWithInvalidEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkLoginWithInvalidEmail Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLoginWithWrongPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkLoginWithWrongPassword Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLoginWithoutUsernameAndPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkLoginWithoutUsernameAndPassword Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkProfileButtonMenuOptions</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkProfileButtonMenuOptions Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scrollDownAndCheckShowMoreButtonAtPageBottom</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step scrollDownAndCheckShowMoreButtonAtPageBottom Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSortingSection</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkSortingSection Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkNameFieldFurtherInputRefineSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkNameFieldFurtherInputRefineSearch Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSearchResultObjects</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkSearchResultObjects Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkDistanceSort</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkDistanceSort Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">holdAndDragUmkreisSlider</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step holdAndDragUmkreisSlider Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickSearchButtonAndCheckOnlineBookableAppointments</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step clickSearchButtonAndCheckOnlineBookableAppointments Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">releaseUmkreisSlider</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step releaseUmkreisSlider Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkResultSection</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkResultSection Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickOnSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step clickOnSearch Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkAdditionalSearchResultsByClickingShowMoreButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkAdditionalSearchResultsByClickingShowMoreButton Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">openClickDocURL</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step openClickDocURL Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkVideoConferenceSearchResults</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkVideoConferenceSearchResults Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkNameFieldFurtherInputWithNoSearchResults</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkNameFieldFurtherInputWithNoSearchResults Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSearchResultSectionWithValidNameInput</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkSearchResultSectionWithValidNameInput Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSearchSection</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkSearchSection Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkNameField</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkNameField Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scrollUpAndCheckLocationInputField</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step scrollUpAndCheckLocationInputField Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSearchResultBySelectingLocation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkSearchResultBySelectingLocation Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkAlphabeticalSortingOfSearchResults</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkAlphabeticalSortingOfSearchResults Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkOnlineBookableCheckboxAndSubFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkOnlineBookableCheckboxAndSubFields Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkBarrierFreeSearchResults</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execution of Test-Step checkBarrierFreeSearchResults Successful!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ClickDocTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ClickDocTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.PhysicianSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(org.testng.TestRunner@783e6358)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(org.testng.TestRunner@64616ca2)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.PhysicianSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openClickDocURL</span>
+                <span class="method-start">1960 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openClickDocURL</span>
+                <span class="method-start">1987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLoginPageElementsBySelectingProfileButton</span>
+                <span class="method-start">3913 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.PhysicianSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnSearch</span>
+                <span class="method-start">5856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchSection</span>
+                <span class="method-start">6869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSortingSection</span>
+                <span class="method-start">7050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResultSection</span>
+                <span class="method-start">7189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkNameField</span>
+                <span class="method-start">7249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkNameFieldFurtherInputRefineSearch</span>
+                <span class="method-start">7822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkNameFieldFurtherInputWithNoSearchResults</span>
+                <span class="method-start">8811 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkLoginWithoutUsernameAndPassword</span>
+                <span class="method-start">15021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEmailInputFieldWithValidEmail</span>
+                <span class="method-start">15229 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.PhysicianSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkSearchResultSectionWithValidNameInput</span>
+                <span class="method-start">19586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchResultObjects</span>
+                <span class="method-start">20473 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPasswordInputFieldWithWrongPassword</span>
+                <span class="method-start">25433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLoginWithWrongPassword</span>
+                <span class="method-start">35627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLoginWithInvalidEmail</span>
+                <span class="method-start">37104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLoginWithValidUsernameAndPassword</span>
+                <span class="method-start">38805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkProfileButtonMenuOptions</span>
+                <span class="method-start">54716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLogout</span>
+                <span class="method-start">65008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">66544 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cgm.clickdoc.testsuite.PhysicianSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scrollDownAndCheckShowMoreButtonAtPageBottom</span>
+                <span class="method-start">115958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAdditionalSearchResultsByClickingShowMoreButton</span>
+                <span class="method-start">116069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollUpAndCheckLocationInputField</span>
+                <span class="method-start">126376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchResultBySelectingLocation</span>
+                <span class="method-start">127085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOnlineBookableCheckboxAndSubFields</span>
+                <span class="method-start">137738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSearchButtonAndCheckOnlineBookableAppointments</span>
+                <span class="method-start">137962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkVideoConferenceSearchResults</span>
+                <span class="method-start">148241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkBarrierFreeSearchResults</span>
+                <span class="method-start">159552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAlphabeticalSortingOfSearchResults</span>
+                <span class="method-start">311148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDistanceSort</span>
+                <span class="method-start">321621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">holdAndDragUmkreisSlider</span>
+                <span class="method-start">321821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">releaseUmkreisSlider</span>
+                <span class="method-start">322042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">322343 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
